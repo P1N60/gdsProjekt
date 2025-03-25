@@ -1,6 +1,6 @@
 # GDS Projekt
-For at reproducere vores resultater, bør libraries under 'Dependencies' sektionen i 'model_trainer.ipynb' og 'data_cleaner.ipynb' være installeret på forhånd. Vi brugte blot 'pip install <library>' til dette.
+To reproduce our results, the libraries listed in the 'Dependencies' section of 'model_trainer.ipynb' and 'data_cleaner.ipynb' should be installed beforehand. We simply used 'pip install <library>' for this.
 
-'data_cleaner.ipynb' bruges til at cleane vores raw data. Resultatet bliver eksporteret som 'data_cleaned_fr' ('fr' for fake/reliable).
+'data_cleaner.ipynb' is used to clean our raw data. The result is exported as 'data_cleaned_fr_<size>' ('fr' for fake/reliable).
 
-'model_trainer.ipynb' bruges til at loade data'en og træne modellen. Vi benytter vores cleanede data 'data_cleaned_fr', som vi splitter, vectorizer og bruger til at træne vores model.
+'model_trainer.ipynb' is used to load the data and train the model. We use our cleaned data 'data_cleaned_fr_<size>', which we split, vectorize, and use to train and evaluate our model.
