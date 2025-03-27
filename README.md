@@ -4,3 +4,5 @@ To reproduce our results, the libraries listed in the 'Dependencies' section of 
 `data_cleaner.ipynb` is used to clean our raw data. The result is exported as `data_cleaned_fr_<size>` ('fr' for fake/reliable).
 
 `model_trainer.ipynb` is used to load the data and train the model. We use our cleaned data `data_cleaned_fr_100000`, which we split, vectorized, and used to train and evaluate our model.
+
+The rest of the files are used to visualize data and get useful insight.
