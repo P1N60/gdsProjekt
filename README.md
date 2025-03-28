@@ -38,12 +38,12 @@ df = pd.read_csv("data_cleaned_fr_100000.csv")
 
 and again use 1 and 0 instead of reliable and fake in this part:
 
-# Filter the data for reliable articles
+### Filter the data for reliable articles
 ```py
 reliable_data = train_data[train_data['type'] == 'reliable']
 ```
 
-# Filter the data for fake articles
+### Filter the data for fake articles
 ```py
 fake_data = train_data[train_data['type'] == 'fake']
 ```
@@ -52,3 +52,10 @@ fake_data = train_data[train_data['type'] == 'fake']
 
 **The rest of the notebooks are used to visualize data and get useful insight.**
 
+
+
+# Program execution order
+1. `data_cleaner.ipynb`
+2. `data_exploration.ipynb`
+3. `liar.ipynb`
+4. `model_trainer.ipynb`
